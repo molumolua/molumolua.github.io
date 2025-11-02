@@ -9,8 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Shanghai, China</p>
-    <p>xxcaijun@gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,8 +28,8 @@ I work on LLM reasoning with reinforcement learning (RL) and data synthesis. Pre
 
 ---
 
-## Research Interests
-- LLM **reasoning**: training & evaluation, verifiers, trajectory credit assignment  
+## research interests
+- **LLM reasoning**: training & evaluation, verifiers, trajectory credit assignment  
 - **Reinforcement learning** for LLMs: scalable objectives, feedback signals, curriculum  
 - **Data synthesis** for alignment, robustness, and generalization  
 

@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 Ph.D. student at **Fudan University & SII**, member of **Alex Research**, advised by **Prof. Yixin Cao**.  
-I work on **LLM reasoning with reinforcement learning (RL)** and **data synthesis**. Previously, I completed my B.Eng. at **Beihang University (BUAA)**, where I worked on **recommender systems** and was active in competitive programming.
+I work on LLM reasoning with reinforcement learning (RL) and data synthesis. Previously, I completed my B.Eng. at Beihang University (BUAA), where I worked on recommender systems and was active in competitive programming.
 
 ---
 
@@ -34,22 +34,22 @@ I work on **LLM reasoning with reinforcement learning (RL)** and **data synthesi
 - LLM **reasoning**: training & evaluation, verifiers, trajectory credit assignment  
 - **Reinforcement learning** for LLMs: scalable objectives, feedback signals, curriculum  
 - **Data synthesis** for alignment, robustness, and generalization  
-- Prior: **recommender systems** and user modeling
+
 ---
 
-## Current Projects
+## current projects
 - **RL for LLM reasoning** — End-to-end pipelines for multi-step reasoning with verifier guidance  
 - **Data engines** — Programmatic data generation, filtering, and replay for scalable supervision  
 - **RecSys (legacy)** — Objectives and ranking strategies for short-session recommendations
 
 ---
 
-## Education
+## education
 - **Ph.D. in Computer Science**, Fudan University & SII — *in progress*  
   Advisor: **Prof. Yixin Cao**  
 - **B.Eng.**, Beihang University (BUAA)
 
 ---
 
-## Links
+## links
 [Google Scholar](#) · [GitHub](#) · [CV (PDF)](#) · **Email:** your.email@domain.com

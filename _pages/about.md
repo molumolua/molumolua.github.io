@@ -6,7 +6,7 @@ subtitle: Fudan University & SII
 
 profile:
   align: right
-  image: prof_me.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 

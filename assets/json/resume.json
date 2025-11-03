@@ -15,22 +15,6 @@
       "startDate": "2024-10-01",
       "endDate": "2025-01-31",
       "summary": "Worked on product features and optimization in the recommendation system team."
-    },
-    {
-      "name": "Fudan University & SII",
-      "position": "PhD Student",
-      "url": "https://www.fudan.edu.cn",
-      "startDate": "2025-09-01",
-      "endDate": "Present",
-      "summary": "Conducting research on LLM reasoning and data synthesis under the supervision of Prof. Yixin Cao."
-    },
-    {
-      "name": "Beihang University (BUAA)",
-      "position": "Undergraduate Student",
-      "url": "https://www.buaa.edu.cn",
-      "startDate": "2020-09-01",
-      "endDate": "2025-06-30",
-      "summary": "Studied Computer Science and Engineering with a focus on recommender systems, GNNs, and knowledge graphs."
     }
   ],
   "education": [
@@ -60,21 +44,21 @@
   "awards": [
     {
       "title": "ICPC Bronze Medal",
-      "date": "2023-10-01",
+      "date": "2023-10-22",
       "awarder": "ICPC, Xi'an, China",
       "url": "https://icpc.global/",
       "summary": "Awarded for exceptional performance in the ICPC regional contest in Xi'an, 2023."
     },
     {
       "title": "CCPC Silver Medal",
-      "date": "2023-11-01",
+      "date": "2023-11-05",
       "awarder": "CCPC, Harbin, China",
       "url": "https://www.ccpc.io/",
       "summary": "Awarded the silver medal in the CCPC competition in Harbin, 2023."
     },
     {
       "title": "ICPC Bronze Medal",
-      "date": "2023-11-01",
+      "date": "2023-12-03",
       "awarder": "ICPC, Jinan, China",
       "url": "https://icpc.global/",
       "summary": "Awarded the bronze medal in the ICPC regional contest in Jinan, 2023."

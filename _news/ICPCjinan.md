@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Win ICPC Bronze Medal in Jinan.
+🥉 Won ICPC Bronze Medal (Jinan).

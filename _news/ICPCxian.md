@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Win ICPC Bronze Medal in Xi'an.
+🥉 Won ICPC Bronze Medal (Xi’an).

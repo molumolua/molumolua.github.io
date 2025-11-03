@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Win CCPC Silver Medal in Harbin.
+🥈 Won CCPC Silver Medal (Harbin).

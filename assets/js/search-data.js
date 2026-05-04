@@ -42,6 +42,9 @@ ninja.data = [{
           section: "News",},{id: "news-cikm-2024-short-paper-accepted",
           title: '📄🎉 CIKM 2024 short paper accepted.',
           description: "",
+          section: "News",},{id: "news-scaler-synthetic-scalable-adaptive-learning-environment-for-reasoning-accepted-to-acl-2026-findings",
+          title: '📄🎉 SCALER: Synthetic Scalable Adaptive Learning Environment for Reasoning — accepted to ACL...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

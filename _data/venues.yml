@@ -7,3 +7,11 @@
 
 "Vision":
   color: "#009f36"
+
+"ACL'26 Findings":
+  url: https://aclanthology.org/
+  color: "#2e7d32"
+
+"CIKM'24":
+  url: https://dl.acm.org/doi/proceedings/10.1145/3627673
+  color: "#c62828"

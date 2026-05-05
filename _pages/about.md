@@ -2,13 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: Fudan University & SII
+subtitle: Ph.D. Student · Fudan University &amp; SII
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
+    <p><i class="ti ti-school"></i> Fudan University &amp; SII</p>
+    <p><i class="ti ti-users-group"></i> Alex Research</p>
+    <p><i class="ti ti-user"></i> Advisor: Prof. Yixin Cao</p>
+    <p><i class="ti ti-mail"></i> xxcaijun@gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,10 +27,28 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am currently a Ph.D. student at Fudan University & SII, where I am a member of Alex Research, working under the supervision of **Prof. Yixin Cao**. My primary research interests lie in **data synthesis and reasoning for large language models (LLMs)**, as well as the application of reinforcement learning (RL) in these areas. Prior to my doctoral studies, I obtained a B.Eng. from Beihang University (BUAA), where I worked on recommender systems, with a focus on Graph Neural Networks (GNNs) and Knowledge Graphs for enhancing recommendation algorithms.
 
-My research involves the development of novel techniques for data synthesis, which aim to improve the robustness and generalization of models. This includes creating synthetic data pipelines and leveraging data augmentation methods to support large-scale training. In the realm of reasoning, I am exploring ways to enhance LLMs by integrating multi-step reasoning capabilities using RL, focusing on trajectory generation, feedback mechanisms, and evaluative verification processes. These efforts aim to advance the state of LLMs in practical applications that require complex reasoning tasks.
+Hi, I'm **Caijun Xu** (徐才峻) — a Ph.D. student at **Fudan University & SII**, working with [**Prof. Yixin Cao**](https://sites.google.com/view/yixin-homepage) in **Alex Research**.
 
-Additionally, during my undergraduate studies at BUAA, I contributed to the development of recommender systems, specifically by applying GNNs and knowledge graph-based approaches to optimize recommendation strategies. This research focused on improving the accuracy and relevance of recommendations in environments with sparse data.
+My research centers on **data synthesis and reasoning for large language models**, including reinforcement learning for multi-step reasoning, trajectory generation, and verifier &amp; feedback design. Before my Ph.D., I received a B.Eng. from **Beihang University (BUAA)**, where I worked on **graph neural networks and knowledge graphs for recommendation**.
 
-For more information, you can access my [Google Scholar](https://scholar.google.com/citations?user=YuYQgYsAAAAJ), [GitHub](https://github.com/molumolua). Feel free to contact me via email at xxcaijun@gmail.com.
+Feel free to reach out — I'm always happy to chat about reasoning, RL, and synthetic-data pipelines. You can also find me on [Google Scholar](https://scholar.google.com/citations?user=YuYQgYsAAAAJ) and [GitHub](https://github.com/molumolua).
+
+<h2 id="research-interests">research interests</h2>
+
+<div class="research-interests">
+  <span class="ri-chip">LLM Reasoning</span>
+  <span class="ri-chip">Reinforcement Learning</span>
+  <span class="ri-chip">Synthetic Data</span>
+  <span class="ri-chip">Verifier &amp; Feedback</span>
+  <span class="ri-chip">Knowledge Graphs</span>
+  <span class="ri-chip">Recommender Systems</span>
+</div>
+
+<h2 id="highlights">highlights</h2>
+
+<ul class="highlights-list">
+  <li><span class="hl-tag paper">Paper</span> <em>SCALER: Synthetic Scalable Adaptive Learning Environment for Reasoning</em> accepted to <strong>ACL 2026 Findings</strong>.</li>
+  <li><span class="hl-tag paper">Paper</span> KG-based recommendation paper accepted to <strong>CIKM 2024</strong>.</li>
+  <li><span class="hl-tag medal">Medal</span> ICPC Asia Regional (Xi'an &amp; Jinan) and <strong>CCPC Silver</strong> (Harbin) medals.</li>
+</ul>

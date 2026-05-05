@@ -32,6 +32,23 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Refined accent palette (modern restrained academic)
+$indigo-color: #3a5af0 !default;
+$indigo-color-soft: #6f87f5 !default;
+$indigo-color-dark: #2c45c2 !default;
+$cyan-accent: #06b6d4 !default;
+$cyan-accent-soft: #5cc8ff !default;
+$amber-accent: #d97706 !default;
+
+// Pre-computed alpha variants (kept in this file to avoid runtime rgba()
+// interpolation, matching the existing $code-bg-color-* pattern below).
+$indigo-ring-light: rgba($indigo-color, 0.18);
+$indigo-chip-bg-light: rgba($indigo-color, 0.08);
+$indigo-chip-bg-hover-light: rgba($indigo-color, 0.18);
+$cyan-ring-dark: rgba($cyan-accent-soft, 0.28);
+$cyan-chip-bg-dark: rgba($cyan-accent-soft, 0.12);
+$cyan-chip-bg-hover-dark: rgba($cyan-accent-soft, 0.25);
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);

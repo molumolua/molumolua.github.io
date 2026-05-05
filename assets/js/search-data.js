@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "news-won-icpc-bronze-medal-xi-an",
           title: '🥉 Won ICPC Bronze Medal (Xi’an).',
           description: "",
@@ -51,6 +44,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%78%78%63%61%69%6A%75%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/molumolua", "_blank");
         },
       },{
         id: 'social-scholar',

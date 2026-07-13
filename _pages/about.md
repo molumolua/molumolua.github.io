@@ -5,7 +5,7 @@ permalink: /
 description: Caijun Xu is a Ph.D. researcher at Fudan University and SII working on self-evolving LLMs, reasoning, reinforcement learning, and synthetic data.
 
 profile:
-  image: prof_pic.jpg
+  image: prof_pic_2026.jpg
   more_info: >
     <p><i class="ti ti-school"></i><span><small>Affiliation</small>Fudan University &amp; SII</span></p>
     <p><i class="ti ti-users-group"></i><span><small>Research group</small>Alex Research</span></p>

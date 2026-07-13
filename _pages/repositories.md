@@ -8,6 +8,7 @@ nav_order: 4
 ---
 
 {% assign profile = site.data.repositories.github_profile %}
+
 <section class="github-profile-panel" aria-labelledby="github-profile-title">
   <div class="github-profile-identity">
     <img class="github-avatar" src="https://github.com/{{ profile.username }}.png?size=160" alt="{{ profile.name }} on GitHub" width="80" height="80">

@@ -10,13 +10,17 @@ html {
 }
 
 body {
-  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family:
+    "Manrope",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: 16px;
   line-height: 1.72;
   letter-spacing: -0.006em;
   background-color: var(--global-bg-color);
-  background-image:
-    linear-gradient(var(--global-grid-color) 1px, transparent 1px),
+  background-image: linear-gradient(var(--global-grid-color) 1px, transparent 1px),
     linear-gradient(90deg, var(--global-grid-color) 1px, transparent 1px);
   background-size: 42px 42px;
 }
@@ -40,7 +44,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family:
+    "Manrope",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   letter-spacing: -0.035em;
 }
 
@@ -945,9 +954,7 @@ a {
   min-height: 235px;
   padding: clamp(1.65rem, 4vw, 3rem);
   color: #ecf3ff;
-  background:
-    radial-gradient(circle at 82% 10%, rgba(70, 88, 217, 0.3), transparent 34%),
-    #121c31;
+  background: radial-gradient(circle at 82% 10%, rgba(70, 88, 217, 0.3), transparent 34%), #121c31;
   box-shadow: 14px 14px 0 var(--global-shadow-block);
   overflow: hidden;
   position: relative;

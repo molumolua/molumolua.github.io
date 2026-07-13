@@ -1,54 +1,98 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: Ph.D. Student · Fudan University &amp; SII
+description: Caijun Xu is a Ph.D. researcher at Fudan University and SII working on LLM reasoning, reinforcement learning, and synthetic data.
 
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
   more_info: >
-    <p><i class="ti ti-school"></i> Fudan University &amp; SII</p>
-    <p><i class="ti ti-users-group"></i> Alex Research</p>
-    <p><i class="ti ti-user"></i> Advisor: Prof. Yixin Cao</p>
-    <p><i class="ti ti-mail"></i> xxcaijun@gmail.com</p>
+    <p><i class="ti ti-school"></i><span><small>Affiliation</small>Fudan University &amp; SII</span></p>
+    <p><i class="ti ti-users-group"></i><span><small>Research group</small>Alex Research</span></p>
+    <p><i class="ti ti-user"></i><span><small>Advisor</small>Prof. Yixin Cao</span></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 4
 ---
 
-Hi, I'm **Caijun Xu** (徐才峻) — a Ph.D. student at **Fudan University & SII**, working with [**Prof. Yixin Cao**](https://sites.google.com/view/yixin-homepage) in **Alex Research**.
+<section class="home-section research-agenda" aria-labelledby="agenda-title">
+  <div class="section-heading">
+    <div>
+      <p class="section-index">01 / Research agenda</p>
+      <h2 id="agenda-title">Teaching models to reason, recover, and improve.</h2>
+    </div>
+    <p class="section-aside">Reliable reasoning is not only about finding a correct path—it is about learning what to do when the path goes wrong.</p>
+  </div>
 
-My research centers on **data synthesis and reasoning for large language models**, including reinforcement learning for multi-step reasoning, trajectory generation, and verifier &amp; feedback design. Before my Ph.D., I received a B.Eng. from **Beihang University (BUAA)**, where I worked on **graph neural networks and knowledge graphs for recommendation**.
+  <div class="agenda-grid">
+    <article>
+      <span class="agenda-number">01</span>
+      <h3>Reasoning via RL</h3>
+      <p>Designing reinforcement learning objectives that improve exploration, self-correction, and multi-step reasoning.</p>
+      <div class="agenda-tags"><span>RLVR</span><span>Self-correction</span></div>
+    </article>
+    <article>
+      <span class="agenda-number">02</span>
+      <h3>Synthetic environments</h3>
+      <p>Creating scalable learning environments and adaptive task distributions without relying on expensive supervision.</p>
+      <div class="agenda-tags"><span>Data synthesis</span><span>Curriculum</span></div>
+    </article>
+    <article>
+      <span class="agenda-number">03</span>
+      <h3>Verifier &amp; feedback</h3>
+      <p>Studying how imperfect traces, verifiers, and feedback can become useful signals for stronger reasoning policies.</p>
+      <div class="agenda-tags"><span>Weak-to-strong</span><span>Feedback</span></div>
+    </article>
+  </div>
+</section>
 
-Feel free to reach out — I'm always happy to chat about reasoning, RL, and synthetic-data pipelines. You can also find me on [Google Scholar](https://scholar.google.com/citations?user=YuYQgYsAAAAJ) and [GitHub](https://github.com/molumolua).
+<section class="featured-research" aria-labelledby="featured-paper-title">
+  <div class="feature-rail" aria-hidden="true">
+    <span>NEW PREPRINT</span>
+    <span>ARXIV:2605.28421</span>
+  </div>
+  <div class="feature-content">
+    <div class="feature-meta">
+      <span>02 / Featured research</span>
+      <span>May 2026 · Reinforcement Learning</span>
+    </div>
+    <h2 id="featured-paper-title">DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes</h2>
+    <p class="feature-authors">Caijun Xu · Changyi Xiao · Zhongyuan Peng · Yixin Cao</p>
+    <p class="feature-summary">
+      DenoiseRL turns incorrect traces from weak models into recovery-oriented training signals. Instead of requiring a stronger teacher or a heavily curated hard dataset, the policy learns to continue from noisy reasoning prefixes and recover toward a correct answer.
+    </p>
 
-<h2 id="research-interests">research interests</h2>
+    <div class="recovery-flow" aria-label="DenoiseRL research concept">
+      <div class="flow-node noisy">
+        <span>01 · Input</span>
+        <strong>Weak-model failure</strong>
+        <small>incorrect reasoning prefix</small>
+      </div>
+      <i class="ti ti-arrow-right" aria-hidden="true"></i>
+      <div class="flow-node optimize">
+        <span>02 · Optimize</span>
+        <strong>Recovery-oriented RL</strong>
+        <small>learn from the continuation</small>
+      </div>
+      <i class="ti ti-arrow-right" aria-hidden="true"></i>
+      <div class="flow-node recover">
+        <span>03 · Outcome</span>
+        <strong>Self-correction</strong>
+        <small>recover to a correct answer</small>
+      </div>
+    </div>
 
-<div class="research-interests">
-  <span class="ri-chip">LLM Reasoning</span>
-  <span class="ri-chip">Reinforcement Learning</span>
-  <span class="ri-chip">Synthetic Data</span>
-  <span class="ri-chip">Verifier &amp; Feedback</span>
-  <span class="ri-chip">Knowledge Graphs</span>
-  <span class="ri-chip">Recommender Systems</span>
-</div>
-
-<h2 id="highlights">highlights</h2>
-
-<ul class="highlights-list">
-  <li><span class="hl-tag paper">Paper</span> <em>SCALER: Synthetic Scalable Adaptive Learning Environment for Reasoning</em> accepted to <strong>ACL 2026 Findings</strong>.</li>
-  <li><span class="hl-tag paper">Paper</span> KG-based recommendation paper accepted to <strong>CIKM 2024</strong>.</li>
-  <li><span class="hl-tag medal">Medal</span> ICPC Asia Regional (Xi'an &amp; Jinan) and <strong>CCPC Silver</strong> (Harbin) medals.</li>
-</ul>
+    <div class="feature-footer">
+      <p><strong>Key idea</strong><span>Use failures as structured perturbations—not discarded samples.</span></p>
+      <div>
+        <a class="research-button primary" href="https://arxiv.org/abs/2605.28421">Read paper <i class="ti ti-arrow-up-right"></i></a>
+        <a class="research-button" href="https://arxiv.org/pdf/2605.28421">PDF <i class="ti ti-file-type-pdf"></i></a>
+      </div>
+    </div>
+  </div>
+</section>

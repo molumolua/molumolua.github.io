@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: 
+title: Publications
+description: Peer-reviewed papers and preprints on language model reasoning, reinforcement learning, and knowledge-enhanced systems.
 nav: true
 nav_order: 2
 ---

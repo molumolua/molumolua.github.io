@@ -1,73 +1,108 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+<div class="research-home">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="hero-copy">
+      <div class="hero-status"><span aria-hidden="true"></span> Open to research conversations</div>
+      <p class="hero-eyebrow">Ph.D. Researcher · Fudan University &amp; SII</p>
+      <h1 id="home-title">Caijun Xu <span>徐才峻</span></h1>
+      <p class="hero-thesis">
+        I build <strong>reasoning models that learn from imperfect trajectories</strong>—turning failures, feedback, and
+        synthetic environments into scalable training signals.
+      </p>
+      <p class="hero-bio">
+        My work sits at the intersection of large language model reasoning, reinforcement learning, and data synthesis.
+        I am advised by
+        <a href="https://sites.google.com/view/yixin-homepage">Prof. Yixin Cao</a> in
+        <strong>Alex Research</strong>.
+      </p>
+      <div class="hero-actions" aria-label="Primary links">
+        <a class="research-button primary" href="{{ '/publications/' | relative_url }}">
+          Explore publications <i class="ti ti-arrow-up-right" aria-hidden="true"></i>
+        </a>
+        <a class="research-button" href="https://scholar.google.com/citations?user=YuYQgYsAAAAJ">
+          Google Scholar <i class="ti ti-arrow-up-right" aria-hidden="true"></i>
+        </a>
+        <a class="research-button icon-only" href="mailto:xxcaijun@gmail.com" aria-label="Email Caijun Xu">
+          <i class="ti ti-mail" aria-hidden="true"></i>
+        </a>
+      </div>
+      <dl class="hero-facts">
+        <div>
+          <dt>Focus</dt>
+          <dd>Reasoning &amp; RL</dd>
+        </div>
+        <div>
+          <dt>Current</dt>
+          <dd>Fudan · SII</dd>
+        </div>
+        <div>
+          <dt>Previously</dt>
+          <dd>BUAA</dd>
+        </div>
+      </dl>
+    </div>
 
-  <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+      <aside class="hero-profile" aria-label="Profile">
+        <div class="portrait-frame">
+          <span class="portrait-index" aria-hidden="true">CX / 01</span>
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
+          {% include figure.liquid loading="eager" path=profile_image_path class="hero-portrait" sizes="(min-width: 992px) 360px, (min-width: 576px) 42vw, 92vw" alt="Caijun Xu" cache_bust=true %}
+          <div class="portrait-caption">
+            <span>Caijun Xu</span>
+            <span>Shanghai, China</span>
+          </div>
+        </div>
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="profile-details">{{ page.profile.more_info }}</div>
         {% endif %}
-      </div>
+      </aside>
     {% endif %}
+  </section>
 
-    <div class="clearfix">{{ content }}</div>
+  <article class="home-content">
+    {{ content }}
 
-    <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <section class="home-section home-news" aria-labelledby="news-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">03 / Updates</p>
+            <h2 id="news-title">Recent news</h2>
+          </div>
+          <a class="section-link" href="{{ '/news/' | relative_url }}">All updates <i class="ti ti-arrow-right"></i></a>
+        </div>
+        {% include news.liquid limit=true %}
+      </section>
     {% endif %}
 
-
-    <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="home-section home-publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">04 / Selected work</p>
+            <h2 id="publications-title">Publications</h2>
+          </div>
+          <a class="section-link" href="{{ '/publications/' | relative_url }}">Full list <i class="ti ti-arrow-right"></i></a>
+        </div>
+        {% include selected_papers.liquid %}
+      </section>
     {% endif %}
 
-    <!-- Social -->
     {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
+      <section class="research-contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-index">05 / Contact</p>
+          <h2 id="contact-title">Let’s exchange ideas.</h2>
+          <p>I’m always glad to discuss reasoning, reinforcement learning, and synthetic-data pipelines.</p>
+        </div>
+        <div class="social">
+          <div class="contact-icons">{% include social.liquid %}</div>
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      </section>
     {% endif %}
   </article>
 </div>

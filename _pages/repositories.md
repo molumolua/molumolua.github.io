@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: 
+title: Open Source
+description: Research implementations, experiments, and tools available on GitHub.
 nav: true
 nav_order: 4
 ---

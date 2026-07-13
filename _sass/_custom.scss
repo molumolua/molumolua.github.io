@@ -665,7 +665,7 @@ a {
     width: 150px !important;
     color: var(--global-theme-color);
     font-family: "IBM Plex Mono", monospace;
-    font-size: 0.59rem;
+    font-size: 0.72rem;
     font-weight: 500;
     letter-spacing: 0.02em;
     white-space: nowrap;
@@ -920,14 +920,191 @@ a {
   font-weight: 500;
 }
 
-.repositories .repo {
-  padding: 0.6rem;
-}
-
-.card,
-.repo img {
+.card {
   border-color: var(--global-divider-color) !important;
   border-radius: 2px !important;
+}
+
+// Open source ---------------------------------------------------------------
+
+.open-source-label {
+  margin: 0 0 0.45rem;
+  color: var(--global-theme-color);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.61rem;
+  font-weight: 500;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+.github-profile-panel {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 1.35rem;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--global-divider-strong);
+  border-bottom: 1px solid var(--global-divider-strong);
+
+  .github-profile-mark {
+    display: grid;
+    width: 54px;
+    height: 54px;
+    place-items: center;
+    border: 1px solid var(--global-divider-strong);
+    color: var(--global-text-color);
+    background: var(--global-surface-elevated);
+    font-size: 1.55rem;
+  }
+
+  h2 {
+    margin: 0;
+    color: var(--global-text-color);
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 1.55rem;
+    font-weight: 600;
+    line-height: 1.2;
+
+    span {
+      margin-left: 0.35rem;
+      color: var(--global-text-color-light);
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.63rem;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  p:last-child {
+    margin: 0.3rem 0 0;
+    color: var(--global-text-color-light);
+    font-size: 0.79rem;
+  }
+}
+
+.research-repositories {
+  margin-top: 4rem;
+}
+
+.repository-section-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1.25rem;
+
+  h2 {
+    margin: 0 !important;
+    color: var(--global-text-color);
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: 2.35rem !important;
+    font-weight: 500 !important;
+  }
+
+  > span {
+    padding-bottom: 0.35rem;
+    color: var(--global-text-color-light);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+}
+
+.repository-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--global-divider-strong);
+  border-bottom: 1px solid var(--global-divider-strong);
+}
+
+.research-repo-card {
+  display: flex;
+  min-width: 0;
+  min-height: 300px;
+  flex-direction: column;
+  padding: 1.35rem;
+  border-right: 1px solid var(--global-divider-color);
+  color: var(--global-text-color);
+  background: var(--global-surface-elevated);
+  text-decoration: none;
+  transition:
+    color 160ms ease,
+    background 160ms ease;
+
+  &:last-child {
+    border-right: 0;
+  }
+
+  &:hover {
+    color: var(--global-text-color);
+    background: var(--global-surface-muted);
+    text-decoration: none;
+
+    .repo-card-topline i {
+      color: var(--global-theme-color);
+      transform: translate(2px, -2px);
+    }
+  }
+}
+
+.repo-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--global-text-color-light);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+
+  i {
+    color: var(--global-text-color-light);
+    transition:
+      color 160ms ease,
+      transform 160ms ease;
+  }
+}
+
+.repo-card-body {
+  padding-top: 2rem;
+
+  .repo-icon {
+    color: var(--global-theme-color);
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    margin: 0.75rem 0 0.75rem;
+    color: var(--global-text-color);
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.79rem;
+    line-height: 1.68;
+  }
+}
+
+.repo-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+
+  span {
+    padding: 0.2rem 0.42rem;
+    border: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.49rem;
+    letter-spacing: 0.025em;
+  }
 }
 
 .header-bar {
@@ -975,6 +1152,22 @@ footer.sticky-bottom {
     .social {
       justify-content: space-between;
       text-align: left;
+    }
+  }
+
+  .repository-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .research-repo-card {
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:nth-child(2) {
+      border-right: 0;
+    }
+
+    &:last-child {
+      border-bottom: 0;
     }
   }
 }
@@ -1029,6 +1222,15 @@ footer.sticky-bottom {
 
   .news table th {
     width: 105px !important;
+  }
+
+  .github-profile-panel {
+    grid-template-columns: auto 1fr;
+
+    > .research-button {
+      grid-column: 1 / -1;
+      justify-self: start;
+    }
   }
 }
 
@@ -1108,6 +1310,19 @@ footer.sticky-bottom {
   .research-contact .social {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .repository-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-repo-card {
+    min-height: 270px;
+    border-right: 0;
+
+    &:last-child {
+      border-bottom: 0;
+    }
   }
 
   .news table,

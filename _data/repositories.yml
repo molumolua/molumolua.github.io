@@ -1,7 +1,31 @@
-github_users:
-  - molumolua
-
-repo_description_lines_max: 1
+github_profile:
+  username: molumolua
+  name: Caijun Xu
+  url: https://github.com/molumolua
+  description: Personal code, research prototypes, and reproducible experiments.
 
 github_repos:
-  - molumolua/KUPN
+  - owner: ALEX-nlp
+    name: DenoiseRL
+    url: https://github.com/ALEX-nlp/DenoiseRL
+    description: Official implementation of recovery-oriented reinforcement learning that trains reasoning models to recover from noisy prefixes produced by weak models.
+    tags:
+      - Python
+      - Reasoning RL
+      - 2026 Preprint
+  - owner: ALEX-nlp
+    name: SCALER
+    url: https://github.com/ALEX-nlp/SCALER
+    description: Official codebase for synthesizing verifiable, difficulty-controllable reasoning environments and adaptive multi-environment reinforcement learning.
+    tags:
+      - Python
+      - Synthetic Environments
+      - ACL 2026 Findings
+  - owner: molumolua
+    name: KUPN
+    url: https://github.com/molumolua/KUPN
+    description: PyTorch implementation of a knowledge-aware user preference network for high-order recommendation with knowledge graphs and contrastive learning.
+    tags:
+      - Python
+      - Knowledge Graph
+      - CIKM 2024

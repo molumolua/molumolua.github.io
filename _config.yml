@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Caijun
-middle_name: 
+middle_name:
 last_name: Xu
 contact_note: >
   xxcaijun@gmail.com
@@ -33,7 +33,6 @@ repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
-
 
 # -----------------------------------------------------------------------------
 # RSS Feed

@@ -13,6 +13,8 @@ github_repos:
       - Python
       - Reasoning RL
       - 2026 Preprint
+    stars: 36
+    forks: 4
   - owner: ALEX-nlp
     name: SCALER
     url: https://github.com/ALEX-nlp/SCALER
@@ -21,6 +23,8 @@ github_repos:
       - Python
       - Synthetic Environments
       - ACL 2026 Findings
+    stars: 9
+    forks: 1
   - owner: molumolua
     name: KUPN
     url: https://github.com/molumolua/KUPN
@@ -29,3 +33,5 @@ github_repos:
       - Python
       - Knowledge Graph
       - CIKM 2024
+    stars: 6
+    forks: 0

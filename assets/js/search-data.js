@@ -3,22 +3,29 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "",
+          title: "Publications",
+          description: "Peer-reviewed papers and preprints on language model reasoning, reinforcement learning, and knowledge-enhanced systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "",
+        },{id: "nav-news",
+          title: "News",
+          description: "Research milestones, paper releases, and selected updates.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-open-source",
+          title: "Open Source",
+          description: "Research implementations, experiments, and tools available on GitHub.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -37,6 +44,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-scaler-synthetic-scalable-adaptive-learning-environment-for-reasoning-accepted-to-acl-2026-findings",
           title: '📄🎉 SCALER: Synthetic Scalable Adaptive Learning Environment for Reasoning — accepted to ACL...',
+          description: "",
+          section: "News",},{id: "news-new-preprint-denoiserl-bootstrapping-reasoning-models-to-recover-from-noisy-prefixes-learning-to-recover-from-weak-model-failures-without-a-stronger-teacher",
+          title: '📄 New preprint: DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes —...',
           description: "",
           section: "News",},{
         id: 'social-email',

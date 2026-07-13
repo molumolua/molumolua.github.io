@@ -938,7 +938,7 @@ a {
 
 .open-source-label {
   margin: 0 0 0.55rem;
-  color: #75e6df;
+  color: var(--global-theme-color);
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.63rem;
   font-weight: 500;
@@ -989,6 +989,14 @@ a {
   }
 }
 
+.github-profile-panel .open-source-label {
+  color: #9df2ec !important;
+}
+
+.github-profile-panel #github-profile-title {
+  color: #fff !important;
+}
+
 .github-profile-identity {
   display: flex;
   align-items: center;
@@ -1009,7 +1017,7 @@ a {
 
 .github-handle {
   margin: 0.4rem 0 0;
-  color: #8fa2c1 !important;
+  color: #c3d1e8 !important;
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.66rem;
   letter-spacing: 0.04em;

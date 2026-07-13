@@ -64,7 +64,7 @@ max_width: 1120px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: https://molumolua.github.io/assets/img/og.png # Open Graph / Twitter card preview (absolute URL)
+og_image: https://molumolua.github.io/assets/img/og-self-evolving.png # Open Graph / Twitter card preview (absolute URL)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

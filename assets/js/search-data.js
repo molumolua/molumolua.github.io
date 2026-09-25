@@ -51,6 +51,9 @@ ninja.data = [{
           section: "News",},{id: "news-scaler-has-been-included-in-hugging-face-s-repo2rlenv",
           title: '🤗 SCALER has been included in Hugging Face’s Repo2RLEnv!',
           description: "",
+          section: "News",},{id: "news-we-released-atria-dawn-preview-a-744b-parameter-moe-model-with-a-256k-token-context-window-for-research-and-engineering-combining-tool-use-coding-and-multi-step-experimentation-to-produce-verifiable-reproducible-results-model-weights-technical-report",
+          title: '🚀 We released Atria-Dawn Preview, a 744B-parameter MoE model with a 256K-token context...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

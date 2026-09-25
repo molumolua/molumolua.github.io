@@ -48,6 +48,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-denoiserl-bootstrapping-reasoning-models-to-recover-from-noisy-prefixes-learning-to-recover-from-weak-model-failures-without-a-stronger-teacher",
           title: '📄 New preprint: DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes —...',
           description: "",
+          section: "News",},{id: "news-scaler-has-been-included-in-hugging-face-s-repo2rlenv",
+          title: '🤗 SCALER has been included in Hugging Face’s Repo2RLEnv!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

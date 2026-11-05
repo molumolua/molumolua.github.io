@@ -54,6 +54,12 @@ ninja.data = [{
           section: "News",},{id: "news-we-released-atria-dawn-preview-a-744b-parameter-moe-model-with-a-256k-token-context-window-for-research-and-engineering-combining-tool-use-coding-and-multi-step-experimentation-to-produce-verifiable-reproducible-results-model-weights-technical-report",
           title: '🚀 We released Atria-Dawn Preview, a 744B-parameter MoE model with a 256K-token context...',
           description: "",
+          section: "News",},{id: "news-new-preprint-belief-trajectory-energy-measuring-the-path-to-a-prediction-measuring-how-language-models-revise-predictions-across-layers-to-characterize-difficulty-and-text-provenance-project-page",
+          title: '📄 New preprint: Belief-Trajectory Energy: Measuring the Path to a Prediction — measuring...',
+          description: "",
+          section: "News",},{id: "news-codiq-test-time-scaling-for-controllable-difficult-question-generation-accepted-to-emnlp-2026-as-an-oral-presentation",
+          title: '📄🎉 CoDiQ: Test-Time Scaling for Controllable Difficult Question Generation — accepted to EMNLP...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

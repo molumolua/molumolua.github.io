@@ -60,6 +60,9 @@ ninja.data = [{
           section: "News",},{id: "news-codiq-test-time-scaling-for-controllable-difficult-question-generation-accepted-to-emnlp-2026-as-an-oral-presentation",
           title: '📄🎉 CoDiQ: Test-Time Scaling for Controllable Difficult Question Generation — accepted to EMNLP...',
           description: "",
+          section: "News",},{id: "news-️-we-released-sage-s2-1-flash-a-320b-moe-multimodal-model-with-strong-computer-use-agent-cua-capabilities-understanding-interfaces-operating-desktop-and-web-applications-and-adapting-actions-through-visual-feedback-our-evaluations-report-85-2-on-osworld-verified-and-67-6-on-webarena-verified-it-also-operates-scientific-software-such-as-3d-slicer-and-qgis-carrying-complex-research-workflows-through-to-verifiable-results-model-weights-technical-report",
+          title: '🖥️🚀 We released Sage S2.1 Flash, a 320B MoE multimodal model with strong...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
